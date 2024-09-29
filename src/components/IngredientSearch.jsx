@@ -5,7 +5,6 @@ const IngredientSearch = () => {
   const [query, setQuery] = useState("");
   const [foodData, setFoodData] = useState(null);
   const [nutritionData, setNutritionData] = useState(null);
-  console.log("hi");
   // Function to handle search
   const handleSearch = async () => {
     try {
